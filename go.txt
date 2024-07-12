@@ -1,0 +1,11 @@
+godotenv
+go get github.com/joho/godotenv
+
+mysql
+github.com/go-sql-driver/mysql
+
+
+if err != nil { //si err es distitno de nil hay error por que err == err hay error si err es nulo o nil no hay error
+		log.Fatal(err)
+	}
+ err tiene que ser nulo para que haya error
